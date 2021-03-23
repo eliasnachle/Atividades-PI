@@ -1,0 +1,19 @@
+.largura_maxima{
+    width: 100%;
+}
+.div1{
+    height: 50px;
+    background-color: purple;
+}
+.div2{
+    height: 400px;
+    background-color: greenyellow;
+}
+.div3{
+    height: 50px;
+    background-color: purple;
+}
+.div4{
+    height: 50px;
+    background-color: lightblue;
+}

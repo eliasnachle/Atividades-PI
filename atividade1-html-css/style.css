@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+header {
+    background: #232323;
+    width: 100%;
+    height: 70px;
+}
+header b{
+    color: #fb430f;
+}
+header span {
+    font-size: 1.4em;
+    color: #fff;
+    font-weight: 800;
+}
+nav{
+    padding-top: 10px;
+    margin: 0 100px;
+}
+ul {
+    float: right;
+}
+ul li {
+    color: white;
+    display: inline;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.title{
+    color: #fb430f;
+}
+.ativado{
+    color: #fb430f;
+}
