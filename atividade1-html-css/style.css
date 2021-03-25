@@ -10,6 +10,7 @@ header {
     background: #232323;
     width: 100%;
     height: 70px;
+    border-bottom: 3px solid #fb430f;
 }
 header b{
     color: #fb430f;
@@ -37,4 +38,34 @@ ul li {
 }
 .ativado{
     color: #fb430f;
+}
+
+.content-atualizacoes{
+    height: 100px;
+    background: #232323;
+}
+.container-atualizacoes{
+    margin: 0 100px;
+    padding-top: 30px;
+}
+.container-input{
+    float: right;
+}
+.content-atualizacoes h1 {
+    color: #fff;
+    margin: 0;
+    float: left;
+}
+.content-atualizacoes input{
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+.content-atualizacoes .btn{
+    background: #fb430f;
+    color: #fff;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
 }
