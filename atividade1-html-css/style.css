@@ -6,23 +6,21 @@ body {
     border: 0;
     font-family: 'Open Sans', sans-serif;
 }
-header {
+nav {
     background: #232323;
     width: 100%;
     height: 70px;
-    border-bottom: 3px solid #fb430f;
+    border-bottom: 5px solid #fb430f;
+    padding-top: 10px;
+    margin: 0 100px;
 }
-header b{
+nav b{
     color: #fb430f;
 }
-header span {
+nav span {
     font-size: 1.4em;
     color: #fff;
     font-weight: 800;
-}
-nav{
-    padding-top: 10px;
-    margin: 0 100px;
 }
 ul {
     float: right;
