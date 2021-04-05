@@ -21,6 +21,10 @@ nav span {
     color: #fff;
     font-weight: 800;
 }
+.title{
+    font-size: 1.5em;
+    color: #fb430f;
+}
 nav{
     padding-top: 10px;
     margin: 0 100px;
@@ -29,18 +33,17 @@ ul {
     float: right;
 }
 ul li {
-    color: white;
     display: inline;
     margin-left: 10px;
     font-size: 18px;
 }
-.title{
-    color: #fb430f;
+ul li a {
+    text-decoration: none;
+    color:#FFF;
 }
 .ativado{
     color: #fb430f;
 }
-
 /*Fim-Menu*/
 /*Newsletter*/
 .content-atualizacoes{
@@ -98,12 +101,16 @@ ul li {
 }
 /*Fim-Hero*/
 /*Missão Visão Valores*/
-.item-img img{
-    width: 10em;
+.container-items{
+    text-align: center;
+    padding: 5em 2em;
 }
 .item{
-    text-align: center;
-    margin-right: 8em;
+    margin-right: 4em;
+    display: inline-block;
+}
+.item-img img{
+    width: 10em;
 }
 .item-desc span{
     font-weight: 800;
@@ -113,24 +120,19 @@ ul li {
     font-size: 1.1em;
     white-space: pre-line;
 }
-section{
-    padding: 5em 0;
-}
-.container-items{
-    display: flex;
-    justify-content: center;
-}
 /*Fim-MVV*/
 /*Footer*/
 footer{
     background: #fb430f;
     color: #fff;
     height: 7em;
+    position: absolute;
+    width: 100%;
     bottom: 0;
 }
 .container-footer{
+    padding: 2em;
     text-align: center;
-    padding-top: 2.5em;
     font-size: 1.2em;
 }
 /*Fim-Footer*/
