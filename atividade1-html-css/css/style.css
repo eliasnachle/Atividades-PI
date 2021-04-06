@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
-body {
+*{
     margin: 0;
     padding: 0;
     border: 0;
@@ -13,8 +13,9 @@ header {
     height: 80px;
     border-bottom: 5px solid #fb430f;
 }
-header b{
-    color: #fb430f;
+nav{
+    margin: 0 100px;
+    padding: 1.5em 0;
 }
 nav span {
     font-size: 1.5em;
@@ -22,19 +23,20 @@ nav span {
     font-weight: 800;
 }
 .title{
-    font-size: 1.5em;
     color: #fb430f;
 }
-nav{
-    padding-top: 10px;
-    margin: 0 100px;
+.nav-logo, .nav-logo a{
+    text-decoration:none;
+    font-size: 1.7em;
+    font-weight: 700;
+    color: #fff;
 }
 ul {
     float: right;
 }
 ul li {
     display: inline;
-    margin-left: 10px;
+    margin-left: 15px;
     font-size: 18px;
 }
 ul li a {
@@ -43,6 +45,7 @@ ul li a {
 }
 .ativado{
     color: #fb430f;
+    font-weight: 600;
 }
 /*Fim-Menu*/
 /*Newsletter*/
@@ -126,9 +129,7 @@ footer{
     background: #fb430f;
     color: #fff;
     height: 7em;
-    position: absolute;
     width: 100%;
-    bottom: 0;
 }
 .container-footer{
     padding: 2em;

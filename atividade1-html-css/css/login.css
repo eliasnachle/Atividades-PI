@@ -1,3 +1,9 @@
+/* Rodapé */
+footer{
+    bottom: 0;
+    position: absolute;
+}
+/* Fim Rodapé */
 /* Div Logi*/
 .pag-login{
     background: #ecf0f1;
@@ -19,8 +25,9 @@ button.btn-green {
     background: #008000;
     border: none;
     color: #fff;
-    padding: 1em 2em;
+    padding: 0.85em 1.5em;
     border-radius: 3px;
+    margin-top: 1em;
 }
 /*Fim Botão*/
 .box-login h2{
@@ -32,23 +39,31 @@ button.btn-green {
     padding: 10px 0;
 }
 .form-input label{
-    font-size: 0.9em;
+    font-size: 1em;
+    font-weight: 600;
 }
 .form-input input{
     padding: 0.5em;
+    width: 230px;
     border: 1px solid #BBB;
     border-radius: 3px;
 }
 /* Cadastro */
 .container-cadastro {
-    padding: 2em 5em;
+    padding: 5em;
 }
 .box-cadastro {
     text-align: left;
     float: left;
 }
+.box-cadastro h1{
+    margin-bottom: 1.5em;
+}
 .container-img { 
     float: right;
+}
+.cadastro-input{
+    margin: 2em 0;
 }
 .cadastro-input label{
     display: block;
