@@ -1,3 +1,4 @@
+/* Div Logi*/
 .pag-login{
     background: #ecf0f1;
     text-align: center;
@@ -26,8 +27,9 @@ button.btn-green {
     font-size: 2em;
     margin: 0px 0px 20px;
 }
+/* Inputs */
 .form-input{
-    padding: 10px;
+    padding: 10px 0;
 }
 .form-input label{
     font-size: 0.9em;
@@ -37,3 +39,22 @@ button.btn-green {
     border: 1px solid #BBB;
     border-radius: 3px;
 }
+/* Cadastro */
+.container-cadastro {
+    padding: 2em 5em;
+}
+.box-cadastro {
+    text-align: left;
+    float: left;
+}
+.container-img { 
+    float: right;
+}
+.cadastro-input label{
+    display: block;
+}
+.cadastro-input input{
+    width: 500px;
+    padding: 15px;
+}
+/* Fim Cadastro */
