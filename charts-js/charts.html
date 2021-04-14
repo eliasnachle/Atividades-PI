@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charts JS</title>
+</head>
+<style>
+body{
+    background: #111;
+    color: rgba(20, 172, 66, 0.575);
+}
+.teste{
+    max-width: 50em;
+    height: 50px;
+}
+</style>
+<body>
+<!-- Charts JS -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<!-- Gráfico -->
+<div class="teste">
+    <canvas id="line-chart"></canvas>
+</div>
+<!-- Customização -->
+<script>
+var ctx = document.getElementById('line-chart');
+var myChart = new Chart(ctx, {
+    type: 'radar',
+    data: {
+        labels: ['Organização', 'Comunicação', 'Racicinio', 'Habilidade'],
+        datasets: [{
+            label: 'Tiririca',
+            data: [17, 19, 15, 5],
+            backgroundColor: 'rgba(255, 28, 115, 0.2)',
+            borderColor: 'rgb(255, 6, 180)',
+            borderWidth: 1
+        }, {
+            label: 'Ronaldinho',
+            data: [15, 13, 18, 20],
+            backgroundColor: 'rgba(43, 213, 255, 0.425)',
+            borderColor: 'rgb(43, 213, 255)',
+            borderWidth: 1
+        }, {
+            label: 'Terry Crews',
+            data: [20, 20, 19, 8],
+            backgroundColor: 'rgba(20, 172, 66, 0.575)',
+            borderColor: 'rgb(20, 172, 66)',
+            borderWidth: 1
+        }
+
+    ]},
+    options: {
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        }
+    }
+});
+</script>
+</body>
+</html>
